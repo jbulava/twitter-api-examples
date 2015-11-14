@@ -3,9 +3,10 @@ Twitter REST and Streaming Examples
 
 This Node.js application demonstrates how to use:
 ------------
- - REST API search
- - Streaming API 1% sample
- - Streaming API search
+ - REST API - search (search.js)
+ - Streaming API - 1% sample (sample.js)
+ - Streaming API - filter (filter.js)
+ - Streaming API - user stream (userstream.js)
 
 More information on these endpoints
 ------------
@@ -13,14 +14,20 @@ More information on these endpoints
  - https://dev.twitter.com/rest/reference/get/search/tweets
  - https://dev.twitter.com/streaming/reference/get/statuses/sample
  - https://dev.twitter.com/streaming/reference/post/statuses/filter
+ - https://dev.twitter.com/streaming/userstreams
 
 Before running
 ------------
- - Make sure to comment out all but one of the examples at a time.
+ - Create an app at t.co/apps to get consumer keys and generate access tokens.
+ - Add these tokens to the block intializing the Twit object (typically starts around line 23).
+ - Install the twit package with this the following command.  This is only required once.
+	npm install twit (only required once) 
 
 To run
 -----------
-	npm install twit (only required once)
-	node twitter-rest-and-streaming.js
+	node filter.js
+	node sample.js
+	node search.js
+	node userstream.js
 
 By [@jbulava](https://twitter.com/jbulava)
