@@ -8,7 +8,7 @@ This Node.js application demonstrates how to use:
  - Streaming API - filter (filter.js)
  - Streaming API - user stream (userstream.js)
 
-More information on these endpoints
+Documentation for these endpoints
 ------------
  - https://dev.twitter.com/rest/public/search
  - https://dev.twitter.com/rest/reference/get/search/tweets
@@ -20,9 +20,10 @@ Before running
 ------------
  - Create an app at t.co/apps to get consumer keys and generate access tokens.
  - Add these tokens to the block intializing the Twit object (typically starts around line 23).
- - Install the twit package with this the following command.  This is only required once.
- 
-	npm install twit (only required once) 
+
+Install twit
+------------
+	npm install twit 
 
 To run
 -----------
