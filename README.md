@@ -21,6 +21,7 @@ Before running
  - Create an app at t.co/apps to get consumer keys and generate access tokens.
  - Add these tokens to the block intializing the Twit object (typically starts around line 23).
  - Install the twit package with this the following command.  This is only required once.
+ 
 	npm install twit (only required once) 
 
 To run
