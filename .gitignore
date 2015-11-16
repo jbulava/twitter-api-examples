@@ -1,6 +1,9 @@
 # No need to commit modules
 node_modules
 
+# Config file with consumer and access keys
+config.js
+
 # Private/working directory
 private/
 

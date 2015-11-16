@@ -16,14 +16,21 @@ Documentation for these endpoints
  - https://dev.twitter.com/streaming/reference/post/statuses/filter
  - https://dev.twitter.com/streaming/userstreams
 
+Additional helpful documentation
+------------
+
+
 Before running
 ------------
- - Create an app at t.co/apps to get consumer keys and generate access tokens.
- - Add these tokens to the block intializing the Twit object (typically starts around line 23).
+ # Copy the config.sample.js to a file named config.js in the same directory
+ # Create an app at t.co/apps to get consumer keys and generate access keys.
+ # Add these keys to your newly created config.js file.
+
+Note: For your safety, the config.js file will NOT be added to your repository.  This is handled by the .gitignore file and the purpose is to not publically expose your applications keys.
 
 Install twit
 ------------
-	npm install twit 
+	npm install twit
 
 To run
 -----------
