@@ -16,15 +16,16 @@ Documentation for these endpoints
  - https://dev.twitter.com/streaming/reference/post/statuses/filter
  - https://dev.twitter.com/streaming/userstreams
 
-Additional helpful documentation
+Additional documentation
 ------------
-
+ - https://github.com/ttezel/twit#twit
+ - https://t.co/TweetObject
 
 Before running
 ------------
- # Copy the config.sample.js to a file named config.js in the same directory
- # Create an app at t.co/apps to get consumer keys and generate access keys.
- # Add these keys to your newly created config.js file.
+ 1. Copy the config.sample.js to a file named config.js in the same directory
+ 2. Create an app at [t.co/apps](https://t.co/apps) to get consumer keys and generate access keys.
+ 3. Add these keys to your newly created config.js file.
 
 Note: For your safety, the config.js file will NOT be added to your repository.  This is handled by the .gitignore file and the purpose is to not publically expose your applications keys.
 
